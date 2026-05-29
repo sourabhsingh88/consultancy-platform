@@ -1,0 +1,8 @@
+backend/target/
+mobileApp/node_modules/
+.env
+.env.*
+!.env.example
+*.log
+E:\Projects\consultancy-platform\backend\src\main\resources\application.properties
+
