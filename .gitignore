@@ -1,8 +1,19 @@
+# Build output
 backend/target/
+
+# Node dependencies
 mobileApp/node_modules/
+
+# Environment files
 .env
 .env.*
 !.env.example
-*.log
-E:\Projects\consultancy-platform\backend\src\main\resources\application.properties
 
+# Log files
+*.log
+
+# Spring Boot config with secrets
+backend/src/main/resources/application.properties
+
+.idea/
+**/.idea/
